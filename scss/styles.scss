@@ -1,0 +1,292 @@
+.inputNoBoarder {
+  border: none;
+  margin-bottom: 0px !important;
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+.input-group-text{
+  background-color: white;
+  border: none;
+}
+
+.smallBtn{
+  display: flex;
+  align-items: center;
+}
+
+.noPadding{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.onlyLeftPadding{
+  padding-left: 30px;
+  padding-right: 0px;
+}
+
+input:focus {
+  box-shadow: none !important;
+}
+
+hr {
+  margin: 0px;
+}
+
+.container-fluid{
+  margin-top: 10px;
+}
+
+.test{
+  border: 1px solid black;
+}
+.noMargin {
+  margin: 0px;
+  padding :0px;
+}
+
+.colorDiv{
+  position: relative;
+}
+.colorPickerSub{
+  width: 30px;
+  height: 30px;
+}
+#closeImage{
+  margin-top: 3px;
+}
+#closeBtn{
+  background-color: white;
+}
+#closeBtn:hover{
+  background-color: whitesmoke;
+}
+#selectionImage{
+  cursor: move;
+}
+#closeImage{
+  cursor: pointer;
+}
+#colorPicker {
+  position: absolute;
+  right: -95px;
+  bottom: 90px;
+  top: 30px;
+  width: 140px;
+  height: 100px;
+  background-color: #fcfaf8;
+}
+////////////////////////////Color Picker Style Start//////////////////////////////
+#colorPickerRed{
+  background-color: rgb(226, 106, 106);
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#colorPickerBlue{
+  background-color: rgb(137, 196, 244);
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#colorPickerYellow{
+  background-color: rgb(255, 246, 143);
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#colorPickerGreen{
+  background-color: rgb(123, 239, 178);
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#colorPickerBrown{
+  background-color:rgb(149, 165, 166);
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#colorPickerPurpul{
+  background-color:rgb(210, 82, 127);
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#colorPickerOrange{
+  background-color:rgb(244, 179, 80);
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#colorPickerPink{
+  background-color: rgb(241, 169, 160);
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#colorPickerWhite{
+  background-color: white;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#colorPickerTeal{
+  background-color: rgb(212, 224, 216);
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#colorPickerDarkBlue{
+  background-color: rgb(30, 139, 195);
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#colorPickerAqua{
+  background-color: rgb(210, 215, 211);
+  display: inline-block;
+  border-radius: 50%;
+}
+////////////////////////////Color Picker Style End//////////////////////////////
+
+.packery {
+  max-width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.item {
+  width: 20%;
+  float: left;
+  //background: #C09;
+  margin: 2px;
+}
+
+.item:hover {
+  cursor: move;
+}
+#remove{
+  cursor: pointer;
+}
+////////////////popup Create///////////////////////////////////
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(255, 255, 255); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+//////////////////////////////////////////////////////////////////////////////////
+#colorPickerRed1{
+  background-color: rgb(226, 106, 106);
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#colorPickerBlue1{
+  background-color: rgb(137, 196, 244);
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#colorPickerYellow1{
+  background-color: rgb(255, 246, 143);
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#colorPickerGreen1{
+  background-color: rgb(123, 239, 178);
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#colorPickerBrown1{
+  background-color:rgb(149, 165, 166);
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#colorPickerPurpul1{
+  background-color:rgb(210, 82, 127);
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#colorPickerOrange1{
+  background-color:rgb(244, 179, 80);
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#colorPickerPink1{
+  background-color: rgb(241, 169, 160);
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#colorPickerWhite1{
+  background-color: white;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#colorPickerTeal1{
+  background-color: rgb(212, 224, 216);
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#colorPickerDarkBlue1{
+  background-color: rgb(30, 139, 195);
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#colorPickerAqua1{
+  background-color: rgb(210, 215, 211);
+  display: inline-block;
+  border-radius: 50%;
+}
+#closeImage1{
+  margin-top: 3px;
+}
+#closeBtn1{
+  background-color: white;
+}
+#closeBtn1:hover{
+  background-color: whitesmoke;
+}
+#selectionImage1{
+  cursor: move;
+}
+#closeImage1{
+  cursor: pointer;
+}
+#colorPicker1 {
+  position: absolute;
+  right: -95px;
+  bottom: 90px;
+  top: 30px;
+  width: 140px;
+  height: 100px;
+  background-color: #fcfaf8;
+}
